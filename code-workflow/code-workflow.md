@@ -1,7 +1,6 @@
-
-
 ## Two Main branches
 
+Always keep two main branches
 
 ```
 master
@@ -13,10 +12,22 @@ The main branch `master` where the source code of HEAD always reflects a product
 The `develop` branch is where the source code of HEAD always reflects a state with the latest delivered development changes for the next release.
 
 
+## Github Workflow
+
+> GitHub Flow is a lightweight, branch-based workflow that supports teams and projects where deployments are made regularly. This are the main steps:
+
+1. Create a branch
+2. Add commits
+3. Open pull request
+4. Discuss and review
+5. Merge and deployments
+
+Read more on [Github workflow](https://guides.github.com/introduction/flow/).
+
 
 ## New branch naming
 
-Name branch with meaning. Make it easy to other developers to understand the purpose of the branck as quick as possible. These are some examples:
+Name new branch with meaning. Make it easy to other developers to understand the purpose of the branch. These are some examples:
 
 `fix-name`, `feature-name`, `release-name`
 
@@ -35,12 +46,11 @@ Always make sure to branch from proper root. Here are some typical steps to list
 
 ## Commit everything
 
-Commit with purpose, one commit per issue. Add tracking id to your commit (bind commit and user story).
+Commit with purpose, one commit per issue. Add asana tracking id to your commit; this will help bind your commit and user story.
 
-Add a commit message describing issue. It should be short, but easy to understand for other developers and you after 3+ months.
+Also add a commit message describing the changes. It should be short, but easy to understand for other developers and you after 3+ months.
 
 ```
-# git add [file]
 # git commit -m “[#id descriptive_message]”
 ```
 
@@ -48,7 +58,7 @@ Add a commit message describing issue. It should be short, but easy to understan
 
 ## Inspect changes before commits
 
-Make sure your commit comment actually match your code changes. Always check the pending changes before commiting.
+Make sure your commit comment actually match your code changes. Make sure to always check the pending changes before committing.
 
 
 ```
@@ -59,9 +69,11 @@ Make sure your commit comment actually match your code changes. Always check the
 
 ## Remove Personal Settings
 
-Remove personal settings from your VC project. It will help to keep the VC clean and easy to load locally. Use the `.gitignore` file:
+Remove personal settings from the project. It will help to keep the repo clean and faster to clone for new members of the team. Use the `.gitignore` file. Here is an example:
+
 
 ```
+/* .gitignore file */
 node_modules
 dist
 .tmp
@@ -72,9 +84,26 @@ app/bower_components
 For more info, read [gitignore docs](http://git-scm.com/docs/gitignore).
 
 
+
+
 **********
 
 ## Other References
+
+- [] [Github Cheat Sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+
+- [] http://www.rdegges.com/successful-github-development/
+http://blog.endpoint.com/2014/05/git-workflows-that-work.html
+
+
+- [ ] [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
+
+- [ ][Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
+
+- [ ][Origin Google file](https://docs.google.com/document/d/19jKkIImsozZXb_J9r5sE05FfW1XIKt-XQFkHBpYpJZg/edit#)
+
+- [x] [Flow](https://guides.github.com/introduction/flow/)
+
 - [x] http://www.troyhunt.com/2011/05/10-commandments-of-good-source-control.html
 
 - [x] http://blog.manishchhabra.com/2011/04/10-version-control-best-practices/
@@ -86,14 +115,3 @@ For more info, read [gitignore docs](http://git-scm.com/docs/gitignore).
 - [x] https://github.com/thoughtbot/guides/tree/master/best-practices
 
 - [x] https://github.com/timoxley/best-practices
-
-- [] http://www.rdegges.com/successful-github-development/
-http://blog.endpoint.com/2014/05/git-workflows-that-work.html
-
-[Flow](https://guides.github.com/introduction/flow/)
-
-[Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
-
-[Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
-
-[Origin Google file](https://docs.google.com/document/d/19jKkIImsozZXb_J9r5sE05FfW1XIKt-XQFkHBpYpJZg/edit#)
