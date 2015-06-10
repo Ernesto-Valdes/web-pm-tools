@@ -2,7 +2,7 @@
 
 Project short description here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-> This project workflow is comprised of tools for improving your productivity and satisfaction when building a web project.
+> This file contains valuable points of contacts, development concepts, environments, features, workflow about this project. This is a handmade list that needs to be updated once the project is changed. Please, don't be shy: any change or improvement are welcome.
 
 
 ## Contacts
@@ -90,7 +90,7 @@ grunt
 
 
 ## Features
-See `package.json` for more information on what tools this project contains.
+This project is comprised of tools for improving your productivity and satisfaction when building a web project. See `package.json` for more information on what tools this project contains.
 
 * Built-in preview server with LiveReload
 * Automagically compile Sass files
@@ -101,6 +101,10 @@ See `package.json` for more information on what tools this project contains.
 * Modernizr builds
 * Includes html5shiv and respond.js for IE8 and lower browsers
 * ...
+
+
+## Changelog
+This [changelog](https://project/kiwi/changelog) contains a curated, chronologically ordered list of notable changes for each version of the project.
 
 
 
