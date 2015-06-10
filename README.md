@@ -92,16 +92,15 @@ grunt
 ## Features
 See `package.json` for more information on what tools this project contains.
 
-* CSS Autoprefixing *(new)*
 * Built-in preview server with LiveReload
 * Automagically compile Sass files
 * Automagically lint your scripts
-* Automagically wire up your Bower components with [bower-install](#third-party-dependencies).
 * Awesome Image Optimization 
 * Foundation Framework - Bootstrap
 * CSS extension language - Sass
-* Optional - Leaner Modernizr builds
+* Modernizr builds
 * Includes html5shiv and respond.js for IE8 and lower browsers
+* ...
 
 
 
