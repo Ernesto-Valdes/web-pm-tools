@@ -28,7 +28,7 @@ Find next some of the global application **standards** and **best practices** to
 Find next the project environments. Please update each environemnt based on the deployed date.
 
 Environment | URL                                       | Updated
------------ | ----------------------------------------- | 
+----------- | ----------------------------------------- | ---------
 dev         | [dev.project.com](http://project/dev/url) | 05/20/2015
 prod        | [project.com](http://project.com)         | 05/20/2015
 
@@ -40,14 +40,15 @@ Find next some of the requirements and steps in order to get this project config
 ### Requirements
 Install or make sure you have installed:
 
-**Grunt**
+#### Grunt
 Check Grunt version `grunt -v` or install it globally: `npm install -g grunt-cli` or 
 
-**Bower** 
+#### Bower
 Check Bower version `bower -v` or install it globally: `npm install -g bower`. 
 
-**Also**
+### Others
 Node.js, Git and Compass…
+
 
 ### Steps
 Clone the project on your development folder.
