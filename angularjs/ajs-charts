@@ -1,0 +1,42 @@
+> Nunc nisl neque, fermentum sed eros nec, laoreet ultricies odio. Etiam cursus libero sed leo fermentum luctus. Ut nec sem metus. Nulla facilisi. Cras ante purus, dictum nec dolor ut, venenatis molestie massa. Nulla id arcu ut mi facilisis bibendum sit amet ut est. Curabitur egestas non quam vitae molestie. Nullam vel tortor vel tellus efficitur porta. Mauris nec varius ligula.
+
+
+## D3
+
+[D3.js](http://d3js.org/)  is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.
+
+## Angular NVD3
+
+[NVD3.js](https://github.com/krispo/angular-nvd3) is a robust charting tool that will suit any dataviz need.
+Available JavaScript Charts contains all regular chart types, or JavaScript Stock Chart which adds advanced Stock chart type.
+
+### Basic usage
+
+Inject nvd3 directive into angular module, set up some chart options and push some data to the controller:
+
+```js
+angular.module('myApp', ['nvd3']).controller('myCtrl',
+  function('$scope'){
+    $scope.options = { /* JSON data */ };
+    $scope.data = { /* JSON data */ }
+  });
+```
+
+and in html again you can use it like:
+
+``` html
+<div ng-app='myApp'>
+  <div ng-controller='myCtrl'>
+    <nvd3 options='options' data='data'></nvd3>
+  </div>
+</div>
+```
+
+## Angular Chart
+
+[Angular Chart](http://jtblin.github.io/angular-chart.js/) is a native AngularJS directives for Chart.js.
+
+
+## Angular Map
+
+[Angular Google Maps](https://github.com/angular-ui/angular-google-maps) is a set of directives (part of angular-ui) written in CoffeeScript and Javascript which integrate Google Maps in an AngularJS applications.

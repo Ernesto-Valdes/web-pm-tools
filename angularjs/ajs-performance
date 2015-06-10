@@ -1,0 +1,30 @@
+## $httpProvider.useApplyAsync
+
+## Minimize or Avoid Watchers
+
+## Use $watchCollection instead of $watch
+
+## debounce ng-model
+
+## Rely on native JavaScript
+
+## Batarang for Debugging
+
+
+## REFERENCES
+
+- [Angular 1.3 Performance - AJS Team](https://drive.google.com/file/d/0Bw6GBXhPGkUGcEVuQlFMQklnUTA/view)
+
+- [11 Tips to Improve AngularJS Performance](http://www.alexkras.com/11-tips-to-improve-angularjs-performance/)
+
+- [Speeding up AngularJS apps with simple optimizations](https://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135)
+
+- [Improving Angular web app performance example](http://bahmutov.calepin.co/improving-angular-web-app-performance-example.html)
+
+- [Boost the Performance of an AngularJS Application Using Immutable Data](http://blog.mgechev.com/2015/03/02/immutability-in-angularjs-immutablejs/)
+
+- [AngularJS Performance in Large Applications](https://www.airpair.com/angularjs/posts/angularjs-performance-large-applications#7-list-problems)
+
+- [Avoiding Common Pitfalls in AngularJS](https://www.airpair.com/angularjs/workshops/angularjs-performance-pitfalls)
+
+- [Scope $watch() vs. $watchCollection() In AngularJS](http://www.bennadel.com/blog/2566-scope-watch-vs-watchcollection-in-angularjs.htm)

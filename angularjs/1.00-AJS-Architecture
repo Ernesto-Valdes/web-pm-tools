@@ -1,0 +1,132 @@
+## REFERENCES
+
+- [AJS Style Guide](https://github.com/johnpapa/angular-styleguide)
+- [AJS Style Guide](https://github.com/toddmotto/angularjs-styleguide)
+- [AJS Style Guide](https://github.com/mgechev/angularjs-style-guide)
+- [AJS Style Guide](http://google.github.io/styleguide/angularjs-google-style.html)
+- [A Reference Architecture for Developers](http://archive.oreilly.com/pub/a/web2/excerpts/web2-architectures/chapter-5.html)
+- [5 Web Application Architecture Resources for Studying](http://codecondo.com/web-application-architecture/)
+- [Designing Web Applications](https://msdn.microsoft.com/en-us/library/ee658099.aspx)
+
+## Follow Naming Conventions
+
+File system naming. consistency across team and systems, dashes between words, apply to files and folders.
+
+## Sufix your Files
+
+Example:
+```
+app.mdl.js
+product-list.ctrl.js
+product-list.tpl.js
+product-list.css
+```
+
+Other examples:
+```
+.fltr, .srv, .cnst, .val, .mock
+```
+
+This is a good practice that not only allow better reading but also integration with management tools and workflow task runners.
+
+- Easier to read at first sight
+- Essential for automation and filtering
+- Shorten the names and decision time
+
+
+## Presentational logic
+
+Presentational logic only inside a controller, avoid Business logic (delegate to Services)
+
+```js
+// avoid
+function MainCtrl () {
+
+  var vm = this;
+
+  $http
+    .get('/users')
+    .success(function (response) {
+      vm.users = response;
+    });
+
+  vm.removeUser = function (user, index) {
+    $http
+      .delete('/user/' + user.id)
+      .then(function (response) {
+        vm.users.splice(index, 1);
+      });
+  };
+
+}
+```
+
+```js
+// recommended
+function MainCtrl (UserService) {
+
+  var vm = this;
+
+  UserService
+    .getUsers()
+    .then(function (response) {
+      vm.users = response;
+    });
+
+  vm.removeUser = function (user, index) {
+    UserService
+      .removeUser(user)
+      .then(function (response) {
+        vm.users.splice(index, 1);
+      });
+  };
+}
+```
+
+## There can be only ONE component per file
+
+One component per file means that each file represents a module. Example:
+```js
+// users.ctrl.js file
+
+// user controller
+appModule.controller(‘userCtrl’, function ($scope) {
+  ...
+})
+// another controller << BAD
+.controller(‘needyCtrl’ … )
+```
+
+This is a good practice that helps:
+- Make it easy to locate components
+- Keep your files shorter (code principle)
+
+
+## Think in States
+UI-Router - Architects best friend. Within the application each view will load controllers and templates... it will help as:
+
+- Break your design in pairs of controls and templates
+- Use dynamic routing
+
+Example:
+```js
+{
+  controller: ‘productCtrl’,
+  templateUrl: ‘product-template.html’,
+  url: ‘/:productID’
+}
+```
+
+## Folder Structure
+
+## Namespacing Components
+
+## Keep Everything Together
+
+## Separate into Modules
+
+## Use promises
+
+## Maintain Single Responsibility Principle (SRP) in services
+
+## Dry your directives
