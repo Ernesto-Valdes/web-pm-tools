@@ -2,16 +2,16 @@
 
 Project short description here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-> This file contains valuable points of contacts, development concepts, environments, features, workflow about this project. This is a handmade list that needs to be updated once the project is changed. Please, don't be shy: any change or improvement are welcome.
+> This file contains valuable points of contacts, development concepts, environments, features, workflow about this project. This is a handmade list that needs to be updated once the project is changed. 
 
 
 ## Contacts
 Please reach out to the team if you have any question or comments. 
 
-* [First Last](first.last@email.com) - Product Owner
-* [First Last](first.last@email.com) - Back End Lead
-* [First Last](first.last@email.com) - Front End Lead
-* [First Last](first.last@email.com) - QA Lead
+* [First Last](first.last@pwc.com) - Product Owner
+* [First Last](first.last@pwc.com) - Back End Lead
+* [First Last](first.last@pwc.com) - Front End Lead
+* [First Last](first.last@pwc.com) - QA Lead
 * ...
 
 
@@ -25,7 +25,7 @@ Find next some of the global application **standards** and **best practices** to
 
 
 ## Environments
-Find next the project environments. Please update each environemnt based on the deployed date.
+Find next the project environments. Please update each environment based on the deployed date.
 
 Environment | URL                                       | Updated
 ----------- | ----------------------------------------- | ---------
@@ -62,12 +62,12 @@ Access your project folder
 cd project_name
 ```
 
-Intall project dependencies
+Install project dependencies
 ```
 npm install
 ```
 
-Intall packages 
+Install packages 
 ```
 bower install
 ```
