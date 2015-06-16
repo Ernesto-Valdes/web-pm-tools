@@ -1,12 +1,12 @@
 # Project Name - V0.0.1
 
-Project short description here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Project short description here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-> This file contains valuable points of contacts, development concepts, environments, features, workflow about this project. This is a handmade list that needs to be updated once the project is changed. 
+> This file contains valuable points of contacts, development concepts, environments, features, workflow about this project. This is a handmade list that needs to be updated once the project is changed.
 
 
 ## Contacts
-Please reach out to the team if you have any question or comments. 
+Please reach out to the team if you have any question or comments.
 
 * [First Last](first.last@pwc.com) - Product Owner
 * [First Last](first.last@pwc.com) - Back End Lead
@@ -35,16 +35,16 @@ prod        | [project.com](http://project.com)         | 05/20/2015
 
 
 ## Getting Started
-Find next some of the requirements and steps in order to get this project configure on your local environment. 
+Find next some of the requirements and steps in order to get this project configure on your local environment.
 
 ### Requirements
 Install or make sure you have installed:
 
 #### Grunt
-Check Grunt version `grunt -v` or install it globally: `npm install -g grunt-cli` or 
+Check Grunt version `grunt -v` or install it globally: `npm install -g grunt-cli` or
 
 #### Bower
-Check Bower version `bower -v` or install it globally: `npm install -g bower`. 
+Check Bower version `bower -v` or install it globally: `npm install -g bower`.
 
 ### Others
 Node.js, Git and Compass…
@@ -67,7 +67,7 @@ Install project dependencies
 npm install
 ```
 
-Install packages 
+Install packages
 ```
 bower install
 ```
@@ -75,7 +75,7 @@ bower install
 
 
 ## Grunt Tasks
-See `gruntfile.js` for more development tasks. 
+See `gruntfile.js` for more development tasks.
 
 Run project and preview in browser
 ```
@@ -84,7 +84,7 @@ grunt serve
 
 Building project for production
 ```
-grunt 
+grunt
 ```
 
 
@@ -95,7 +95,7 @@ This project is comprised of tools for improving your productivity and satisfact
 * Built-in preview server with LiveReload
 * Automagically compile Sass files
 * Automagically lint your scripts
-* Awesome Image Optimization 
+* Awesome Image Optimization
 * Foundation Framework - Bootstrap
 * CSS extension language - Sass
 * Modernizr builds
@@ -113,8 +113,8 @@ This [changelog](https://project/kiwi/changelog) contains a curated, chronologic
 Third-party dependencies are managed with [bower-install](https://github.com/stephenplusplus/grunt-bower-install). Add new dependencies using **Bower** and then run the **Grunt** task to load them:
 
 ```bash
-  bower install --save jquery
-  grunt bowerInstall
+bower install --save jquery
+grunt bowerInstall
 ```
 
 The components are installed in the root of the project at `/bower_components`. To reference them from the `grunt serve` web app `index.html` file, use `src="bower_components"` or `src="/bower_components"`. Treat the references as if they were a sibling to `index.html`.
@@ -125,4 +125,4 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 
 ## Modifications and Fixes
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
