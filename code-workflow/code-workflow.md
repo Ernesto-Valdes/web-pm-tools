@@ -1,6 +1,6 @@
-## Two Main branches
+## Branches
 
-Always keep two main branches
+Always keep two main branches for the development process:
 
 ```
 master
@@ -25,7 +25,7 @@ The `develop` branch is where the source code of HEAD always reflects a state wi
 Read more on [Github workflow](https://guides.github.com/introduction/flow/).
 
 
-## New branch naming
+## Branch Naming
 
 Name new branch with meaning. Make it easy to other developers to understand the purpose of the branch. These are some examples:
 
@@ -67,18 +67,19 @@ Make sure your commit comment actually match your code changes. Make sure to alw
 
 
 
-## Remove Personal Settings
+## Intentionally Untracked Files
 
-Remove personal settings from the project. It will help to keep the repo clean and faster to clone for new members of the team. Use the `.gitignore` file. Here is an example:
+Remove personal and development settings from the project. It will help to keep the repo clean and faster to clone for new members of the team. Use the `.gitignore` file. Here is an example:
 
 
 ```
 /* .gitignore file */
 node_modules
+app/bower_components
 dist
 .tmp
 .sass-cache
-app/bower_components
+personal-todo.md
 ```
 
 For more info, read [gitignore docs](http://git-scm.com/docs/gitignore).
@@ -90,17 +91,17 @@ For more info, read [gitignore docs](http://git-scm.com/docs/gitignore).
 
 ## Other References
 
-- [] [Github Cheat Sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+- [ ] [Github Cheat Sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 
-- [] http://www.rdegges.com/successful-github-development/
+- [ ] http://www.rdegges.com/successful-github-development/
 http://blog.endpoint.com/2014/05/git-workflows-that-work.html
 
 
 - [ ] [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 
-- [ ][Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
+- [ ] [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
 
-- [ ][Origin Google file](https://docs.google.com/document/d/19jKkIImsozZXb_J9r5sE05FfW1XIKt-XQFkHBpYpJZg/edit#)
+- [ ] [Origin Google file](https://docs.google.com/document/d/19jKkIImsozZXb_J9r5sE05FfW1XIKt-XQFkHBpYpJZg/edit#)
 
 - [x] [Flow](https://guides.github.com/introduction/flow/)
 
