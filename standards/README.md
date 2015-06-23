@@ -4,6 +4,9 @@
 ## REFERENCE
 * [Front-end-Wiki](https://github.com/brunogarcia/Front-end-Wiki/wiki)
 * [Learn to Code Advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css/)
+* http://standards.mediarain.com/html-css
+* http://learn.shayhowe.com/html-css/getting-to-know-html/
+
 
 
 ## TODO
